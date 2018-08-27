@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2% 0;
+}
+
+.menu h1 {
+  margin: 0;
+}
+
+header {
+  font-family: Montserrat, sans-serif;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+nav li {
+  padding: 15px;
+}
+
+div .slogan {
+  font-family: 'Playfair Display', serif;
+  margin: auto;
+}
+
+.slogan h1 {
+  color: black;
+}
+
+.slogan h2 {
+  color: white;
+}
